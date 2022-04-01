@@ -1,0 +1,35 @@
+::-webkit-scrollbar {
+  width: 9px;
+  height: 15px;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar-button {
+  width: 9px;
+  height: 18px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1;
+  -webkit-border-radius: 10px;
+}
+/*
+*这就是滚动条的样式了
+*/
+::-webkit-scrollbar-thumb {
+  background-color: rgba(218, 219, 226, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.21);
+  -webkit-border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(191, 196, 206);
+  border: 1px solid rgba(0, 0, 0, 0.21);
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 15px;
+}
